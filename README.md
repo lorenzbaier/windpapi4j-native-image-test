@@ -39,3 +39,6 @@
   ```
 
 - `.\gradlew nativeRun -PincludeReflectConfig` -> works again because correct reflect config is included
+  note that `src/main/resources/META-INF/native-image/proxy-config.json`
+  and `src/main/resources/META-INF/native-image/reflect-config.json` are only included when this flag is set
+  ()
